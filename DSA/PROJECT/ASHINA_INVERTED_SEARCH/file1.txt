@@ -1,0 +1,9 @@
+#index;word;filecount;filename;wordcount;#
+#0;are;2;file1.txt;2;file3.txt;1;#
+#6;good;1;file3.txt;1;#
+#7;hii;1;file1.txt;1;#
+#7;hello;2;file1.txt;1;file2.txt;2;#
+#7;how;2;file1.txt;1;file2.txt;1;#
+#12;man;1;file3.txt;1;#
+#24;you;1;file3.txt;1;#
+#26;12;1;file2.txt;1;#
