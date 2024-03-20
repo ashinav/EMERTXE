@@ -1,0 +1,117 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"12 C:\Users\Ashinv\MPLABXProjects\A03.X\keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+"18
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"13 C:\Users\Ashinv\MPLABXProjects\A03.X\main.c
+[v _init_config init_config `(v  1 e 1 0 ]
+"22
+[v _run_train run_train `(v  1 e 1 0 ]
+"46
+[v _left_right_train left_right_train `(v  1 e 1 0 ]
+"63
+[v _alternate_nibble alternate_nibble `(v  1 e 1 0 ]
+"72
+[v _alernate_led alernate_led `(v  1 e 1 0 ]
+"80
+[v _main main `(v  1 e 1 0 ]
+"25714 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4580.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"25888
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"27059
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27281
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"80 C:\Users\Ashinv\MPLABXProjects\A03.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"83
+[v main@flag flag `i  1 a 2 13 ]
+"87
+[v main@wait wait `ui  1 a 2 9 ]
+"85
+[v main@key key `uc  1 a 1 12 ]
+"86
+[v main@cur_key cur_key `uc  1 a 1 11 ]
+"126
+} 0
+"22
+[v _run_train run_train `(v  1 e 1 0 ]
+{
+[v run_train@flag flag `i  1 p 2 0 ]
+"25
+[v run_train@direction_flag direction_flag `i  1 s 2 direction_flag ]
+"26
+[v run_train@set_on_flag set_on_flag `i  1 s 2 set_on_flag ]
+"44
+} 0
+"18 C:\Users\Ashinv\MPLABXProjects\A03.X\keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@mode mode `uc  1 a 1 wreg ]
+[v read_digital_keypad@mode mode `uc  1 a 1 wreg ]
+"20
+[v read_digital_keypad@once once `uc  1 s 1 once ]
+"22
+[v read_digital_keypad@mode mode `uc  1 a 1 0 ]
+"41
+} 0
+"46 C:\Users\Ashinv\MPLABXProjects\A03.X\main.c
+[v _left_right_train left_right_train `(v  1 e 1 0 ]
+{
+[v left_right_train@flag flag `i  1 p 2 0 ]
+"49
+[v left_right_train@set_on_flag set_on_flag `i  1 s 2 set_on_flag ]
+"60
+} 0
+"13
+[v _init_config init_config `(v  1 e 1 0 ]
+{
+"20
+} 0
+"12 C:\Users\Ashinv\MPLABXProjects\A03.X\keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+{
+"16
+} 0
+"63 C:\Users\Ashinv\MPLABXProjects\A03.X\main.c
+[v _alternate_nibble alternate_nibble `(v  1 e 1 0 ]
+{
+[v alternate_nibble@flag flag `i  1 p 2 0 ]
+"69
+} 0
+"72
+[v _alernate_led alernate_led `(v  1 e 1 0 ]
+{
+[v alernate_led@flag flag `i  1 p 2 0 ]
+"78
+} 0
