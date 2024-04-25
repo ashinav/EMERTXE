@@ -1,10 +1,3 @@
-/*
- * File:   A13-main.c
- * Author: ASHINA V 
- *
- * Created on 18 March, 2024, 9:00 AM
- */
-
 
 #include <xc.h>
 #include"main.h"

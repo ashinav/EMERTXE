@@ -1,0 +1,119 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"8 C:\Users\ASUS VIVO BOOK\MPLABXProjects\ASSIGNMENT_4_TIMER.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+"12 C:\Users\ASUS VIVO BOOK\MPLABXProjects\ASSIGNMENT_4_TIMER.X\main.c
+[v _init_config init_config `(v  1 e 1 0 ]
+"21
+[v _main main `(v  1 e 1 0 ]
+"7 C:\Users\ASUS VIVO BOOK\MPLABXProjects\ASSIGNMENT_4_TIMER.X\timer.c
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+"21
+[v _init_timer1 init_timer1 `(v  1 e 1 0 ]
+"30
+[v _init_timer2 init_timer2 `(v  1 e 1 0 ]
+"25714 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4580.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"27059
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"30878
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"31107
+[v _TMR1 TMR1 `VEus  1 e 2 @4046 ]
+"31712
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"35487
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"36081
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"36117
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"36192
+[v _RB0 RB0 `VEb  1 e 0 @31752 ]
+"36195
+[v _RB1 RB1 `VEb  1 e 0 @31753 ]
+"36198
+[v _RB2 RB2 `VEb  1 e 0 @31754 ]
+"38964
+[v _T08BIT T08BIT `VEb  1 e 0 @32430 ]
+"38970
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"39093
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"39096
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"39102
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"39108
+[v _TMR1IE TMR1IE `VEb  1 e 0 @31976 ]
+"39111
+[v _TMR1IF TMR1IF `VEb  1 e 0 @31984 ]
+"39117
+[v _TMR1ON TMR1ON `VEb  1 e 0 @32360 ]
+"39120
+[v _TMR2IE TMR2IE `VEb  1 e 0 @31977 ]
+"39123
+[v _TMR2IF TMR2IF `VEb  1 e 0 @31985 ]
+"39129
+[v _TMR2ON TMR2ON `VEb  1 e 0 @32338 ]
+"21 C:\Users\ASUS VIVO BOOK\MPLABXProjects\ASSIGNMENT_4_TIMER.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"29
+} 0
+"12
+[v _init_config init_config `(v  1 e 1 0 ]
+{
+"19
+} 0
+"30 C:\Users\ASUS VIVO BOOK\MPLABXProjects\ASSIGNMENT_4_TIMER.X\timer.c
+[v _init_timer2 init_timer2 `(v  1 e 1 0 ]
+{
+"38
+} 0
+"21
+[v _init_timer1 init_timer1 `(v  1 e 1 0 ]
+{
+"28
+} 0
+"7
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+{
+"18
+} 0
+"8 C:\Users\ASUS VIVO BOOK\MPLABXProjects\ASSIGNMENT_4_TIMER.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"9
+[v isr@count0 count0 `ui  1 s 2 count0 ]
+[v isr@count1 count1 `ui  1 s 2 count1 ]
+[v isr@count2 count2 `ui  1 s 2 count2 ]
+"37
+} 0

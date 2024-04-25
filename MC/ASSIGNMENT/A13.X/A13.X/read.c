@@ -1,10 +1,3 @@
-/*
- * File:   read.c
- * Author: ASHINA V 
- *
- * Created on 19 March, 2024, 10:21 PM
- */
-
 
 #include <xc.h>
 #include"main.h"

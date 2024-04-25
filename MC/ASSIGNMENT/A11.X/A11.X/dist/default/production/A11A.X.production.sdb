@@ -1,0 +1,163 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"15 C:\Users\aldri\MPLABXProjects\A11A.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+"12 C:\Users\aldri\MPLABXProjects\A11A.X\keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"14 C:\Users\aldri\MPLABXProjects\A11A.X\main.c
+[v _init_config init_config `(v  1 e 1 0 ]
+"21
+[v _main main `(v  1 e 1 0 ]
+"12 C:\Users\aldri\MPLABXProjects\A11A.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+"20
+[v _display display `(v  1 e 1 0 ]
+"30
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+"11 C:\Users\aldri\MPLABXProjects\A11A.X/header.h
+[v _digit digit `[10]uc  1 e 10 0 ]
+"25505 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4580.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"25888
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"26058
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"26837
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"27503
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"30188
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"31712
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"35487
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"36081
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"36117
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"38964
+[v _T08BIT T08BIT `VEb  1 e 0 @32430 ]
+"38970
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"39093
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"39096
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"39102
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"12 C:\Users\aldri\MPLABXProjects\A11A.X\isr.c
+[v _sec sec `ui  1 e 2 0 ]
+[v _min min `ui  1 e 2 0 ]
+"13
+[v _count0 count0 `ui  1 e 2 0 ]
+"21 C:\Users\aldri\MPLABXProjects\A11A.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"26
+[v main@ssd ssd `[4]uc  1 a 4 11 ]
+"31
+[v main@hr hr `ui  1 a 2 16 ]
+"28
+[v main@change_field change_field `i  1 a 2 9 ]
+"30
+[v main@set_edit set_edit `i  1 a 2 7 ]
+"27
+[v main@key key `uc  1 a 1 15 ]
+"146
+} 0
+"12 C:\Users\aldri\MPLABXProjects\A11A.X\keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@detection detection `uc  1 a 1 wreg ]
+[v read_digital_keypad@detection detection `uc  1 a 1 wreg ]
+"14
+[v read_digital_keypad@once once `uc  1 s 1 once ]
+"17
+[v read_digital_keypad@detection detection `uc  1 a 1 0 ]
+"38
+} 0
+"30 C:\Users\aldri\MPLABXProjects\A11A.X\ssd.c
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+{
+"45
+} 0
+"14 C:\Users\aldri\MPLABXProjects\A11A.X\main.c
+[v _init_config init_config `(v  1 e 1 0 ]
+{
+"18
+} 0
+"12 C:\Users\aldri\MPLABXProjects\A11A.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+{
+"18
+} 0
+"20
+[v _display display `(v  1 e 1 0 ]
+{
+"26
+[v display@wait wait `ui  1 a 2 3 ]
+"22
+[v display@i i `i  1 a 2 5 ]
+"20
+[v display@data data `*.30uc  1 p 1 0 ]
+"28
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"15 C:\Users\aldri\MPLABXProjects\A11A.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"33
+} 0
